@@ -6,7 +6,7 @@
  * movil: 301 393 8052
  */
 
-require_once (dirname(dirname(__FILE__)) . '/nusoap/nusoap.php');
+require_once (dirname(dirname(__FILE__)) . '/vendor/autoload.php');
 
 class wsmainpse {
 

@@ -11,7 +11,7 @@
  * NOTA: esta clase no esta desarrollada para pagos Multicreditos
  */
 //Agregar todos los Web Services
-require_once (dirname(__FILE__) . '/lib/class.mainpse.php');
+require_once (dirname(__FILE__) . '/src/class.mainpse.php');
 
 class wsplacetopay {
 

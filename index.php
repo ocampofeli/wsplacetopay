@@ -5,7 +5,7 @@ require_once (dirname(__FILE__) . '/wsplacetopay.php');
 $wsplacetopay = new wsplacetopay();
     
 $listaBancos = $wsplacetopay->getBankList();
-//var_export($listaBancos);
+var_export($listaBancos);
 
 $transactionID = '1442580951';
 $responseTransactionID = $wsplacetopay->getTransactionInformation($transactionID);
@@ -15,6 +15,7 @@ $responseTransactionID = $wsplacetopay->getTransactionInformation($transactionID
 echo "</pre>"
 ?>
 
+<!--
 <form method="post" action="wsplacetopay.php">
 bankCode
 <input type="text" name="bankCode">

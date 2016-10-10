@@ -1,0 +1,40 @@
+{
+    "name": "ocampofeli/wsplacetopay",
+    "type": "library",
+    "description": "consumo de webservices pse -> PlacetoPay",
+    "minimum-stability": "dev",
+    "license": "MIT",
+    "homepage": "https://github.com/ocampofeli/wsplacetopay",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": ":Felipe Ocampo",
+            "email": ":ocampofeli@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : ">=5.3.3"
+    },
+    "require-dev": {
+        "deviservi/nusoap" : "~4.0||~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ocampofeli\\wsplacetopay\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ocampofeli\\wsplacetopay\\": "tests"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}

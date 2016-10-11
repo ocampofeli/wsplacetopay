@@ -6,6 +6,7 @@
     "license": "LGPLv2",
     "homepage": "https://github.com/ocampofeli/wsplacetopay",
     "license": "MIT",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": ":Felipe Ocampo",
@@ -13,7 +14,7 @@
             "role": "Developer"
         }
     ],
-    "minimum-stability": "dev",
+    
     "require": {
         "php" : ">=5.3.3",
         "deviservi/nusoap" : "1.*"
@@ -21,7 +22,7 @@
     "autoload": {
         "psr-0": {
             "ocampofeli\\wsplacetopay\\": "src/",
-            "ocampofeli\\wsplacetopay\\": "wsPSE.php",
+            "ocampofeli\\wsplacetopay\\": "wsPSE.php"
         }
     },
     "config": {

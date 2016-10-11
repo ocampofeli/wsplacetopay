@@ -3,7 +3,6 @@
     "type": "library",
     "description": "consumo de webservices pse -> PlacetoPay",
     "keywords": ["placetopay","pse"],
-    "minimum-stability": "dev",
     "license": "LGPLv2",
     "homepage": "https://github.com/ocampofeli/wsplacetopay",
     "license": "MIT",
@@ -21,16 +20,6 @@
     "autoload": {
         "psr-4": {
             "ocampofeli\\wsplacetopay\\": "src"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "ocampofeli\\wsplacetopay\\": "tests"
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0-dev"
         }
     },
     "config": {

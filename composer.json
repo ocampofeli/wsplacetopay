@@ -19,8 +19,9 @@
         "deviservi/nusoap" : "1.*"
     },
     "autoload": {
-        "psr-4": {
-            "ocampofeli\\wsplacetopay\\": "src"
+        "psr-0": {
+            "ocampofeli\\wsplacetopay\\": "src/",
+            "ocampofeli\\wsplacetopay\\": "wsPSE.php",
         }
     },
     "config": {

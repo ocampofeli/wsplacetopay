@@ -26,8 +26,6 @@ class validatorPSE {
     public function validatorPSE_data($pol) {
 
 
-        $this->validatorPSE_valOpcional();
-
         $this->wspse->bankCode = (isset($pol['bankCode']) ? $pol['bankCode'] : '');
         $this->wspse->bankInterface = (isset($pol['bankInterface']) ? $pol['bankInterface'] : '');
         $this->wspse->returnURL = (isset($pol['returnURL']) ? $pol['returnURL'] : '');
@@ -97,6 +95,8 @@ class validatorPSE {
         $this->wspse->ipAddress = $this->validatorPSE_detectIp();
         $this->wspse->userAgent = $this->validatorPSE_detectBrowser();
 
+        $this->validatorPSE_valOpcional();
+        
         $this->wspse->webservicePSE_setPayment();
     }
 

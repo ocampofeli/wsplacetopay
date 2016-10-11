@@ -64,6 +64,17 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     }
 }
 
+if ($_SERVER['REQUEST_METHOD'] == 'GET') {
+
+    foreach ($_GET as $key => $value) {
+        $pol[$key] = $pse_p2p->validatorPSE_check_plain($_POST[$key]);
+    }
+
+    if (!empty($pol)) {
+        $pse_p2p->validatorPSE_data($pol);
+    }
+}
+
 
 /**
   Información

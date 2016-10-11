@@ -20,6 +20,7 @@
         "deviservi/nusoap" : "1.*"
     },
     "autoload": {
+        "classmap": ["wsPSE.php"],
         "psr-0": {
             "ocampofeli\\wsplacetopay\\": "src/",
             "ocampofeli\\wsplacetopay\\": "wsPSE.php"

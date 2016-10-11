@@ -15,9 +15,6 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "vendor/deviservi": "dev-master"
-    }
-    "require": {
         "php" : ">=5.3.3",
         "deviservi/nusoap" : "1.*"
     },
